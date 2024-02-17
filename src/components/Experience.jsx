@@ -9,6 +9,7 @@ import github from "../assets/experience/github.png";
 import tailwind from "../assets/experience/tailwind.png";
 import mongo from "../assets/experience/mongo.png";
 import bootstrap from "../assets/experience/bootstrap.png";
+import firebase from "../assets/experience/firebase.png";
 
 const Experience = () => {
 
@@ -73,6 +74,12 @@ const Experience = () => {
             src: mongo,
             title: "MongoDB",
             style: "shadow-green-400"
+        },
+        {
+            id: 11,
+            src: firebase,
+            title: "firebase",
+            style: "shadow-yellow-600"
         },
     ]
     return (
