@@ -2,7 +2,7 @@ import React from 'react';
 import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
 import installNode from "../assets/portfolio/installNode.jpg";
 import navbar from "../assets/portfolio/navbar.jpg";
-
+import chattApp from "../assets/portfolio/chattApp.png"
 const Portfolio = () => {
   const portfolios = [
     {
@@ -22,6 +22,12 @@ const Portfolio = () => {
       src: installNode,
       mylink: "https://threejs3dshirt.netlify.app/", // Replace with your demo link
       githubLink: "https://github.com/Shoaib20455/Three-D-Shirt", // Replace with your GitHub link
+    },
+    {
+      id: 4,
+      src: chattApp,
+      mylink: "https://shoaibsapp-86d63.web.app/", // Replace with your demo link
+      githubLink: "https://github.com/Shoaib20455/Chatt-App-2024_Firebase-tailwind", // Replace with your GitHub link
     },
   ];
 
